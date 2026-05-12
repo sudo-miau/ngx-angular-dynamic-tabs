@@ -1,6 +1,6 @@
 {
   "name": "ngx-angular-dynamic-tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dynamic, multi-instance tabs for Angular with an imperative createTab() API. Drop a component into a tab at runtime.",
   "keywords": [
     "angular",
