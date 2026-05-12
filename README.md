@@ -2,8 +2,15 @@
 
 [![npm version](https://img.shields.io/npm/v/ngx-angular-dynamic-tabs.svg)](https://www.npmjs.com/package/ngx-angular-dynamic-tabs)
 [![license](https://img.shields.io/npm/l/ngx-angular-dynamic-tabs.svg)](LICENSE)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sudo-miau/ngx-angular-dynamic-tabs/tree/main/demo)
 
 Dynamic, multi-instance tabs for Angular with an imperative `createTab()` API. Drop any component into a tab at runtime — no template wiring, no global state, multiple panels per app.
+
+## 🚀 Try it live
+
+**[Open the interactive demo on StackBlitz →](https://stackblitz.com/github/sudo-miau/ngx-angular-dynamic-tabs/tree/main/demo)**
+
+The demo runs Angular in the browser using the published npm package — switch between the 4 style variants, open tabs with different components, see the confirm-close flow.
 
 > 📖 **Full documentation, API reference, theming and examples**: [projects/ngx-angular-dynamic-tabs/README.md](projects/ngx-angular-dynamic-tabs/README.md)
 
@@ -43,8 +50,9 @@ ngx-angular-dynamic-tabs/        ← this folder (the workspace root)
 │       ├── src/
 │       ├── package.json
 │       └── README.md              ← published npm README
-├── package.json                   ← workspace (dev tooling)
-└── ng-package config
+├── demo/                          ← live demo app (runs on StackBlitz)
+│   └── src/
+└── package.json                   ← workspace (dev tooling)
 ```
 
 ## Developing locally

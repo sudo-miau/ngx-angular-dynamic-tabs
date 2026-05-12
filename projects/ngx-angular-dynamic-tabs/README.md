@@ -4,6 +4,8 @@ Dynamic, multi-instance tabs for Angular with an imperative `createTab()` API. D
 
 Inspired by the tab UX of IDEs and browsers: open from anywhere, close (with optional confirm), reorder by drag, middle-click to close, keep state when switching tabs.
 
+**[🚀 Try it live on StackBlitz →](https://stackblitz.com/github/sudo-miau/ngx-angular-dynamic-tabs/tree/main/demo)**
+
 ## Features
 
 - **Imperative API** — `panel.createTab(MyComponent, { label, icon, inputs })`.
