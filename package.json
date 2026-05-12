@@ -1,0 +1,22 @@
+{
+  "name": "ngx-angular-dynamic-tabs-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Workspace for building the ngx-angular-dynamic-tabs library.",
+  "scripts": {
+    "build": "ng-packagr -p projects/ngx-angular-dynamic-tabs/ng-package.json",
+    "pack:lib": "cd dist/ngx-angular-dynamic-tabs && npm pack"
+  },
+  "devDependencies": {
+    "@angular/cdk": "^19.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/compiler": "^19.0.0",
+    "@angular/compiler-cli": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "ng-packagr": "^19.0.0",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.6.0",
+    "typescript": "~5.6.0",
+    "zone.js": "~0.15.0"
+  }
+}

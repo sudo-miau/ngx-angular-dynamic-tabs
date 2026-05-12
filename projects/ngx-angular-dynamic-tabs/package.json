@@ -1,0 +1,32 @@
+{
+  "name": "ngx-angular-dynamic-tabs",
+  "version": "0.1.0",
+  "description": "Dynamic, multi-instance tabs for Angular with an imperative createTab() API. Drop a component into a tab at runtime.",
+  "keywords": [
+    "angular",
+    "tabs",
+    "dynamic",
+    "ngx",
+    "cdk",
+    "drag-and-drop"
+  ],
+  "license": "MIT",
+  "author": "sudo-miau",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-miau/ngx-angular-dynamic-tabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudo-miau/ngx-angular-dynamic-tabs/issues"
+  },
+  "homepage": "https://github.com/sudo-miau/ngx-angular-dynamic-tabs#readme",
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/cdk": "^19.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.0"
+  },
+  "sideEffects": false
+}
